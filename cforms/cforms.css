@@ -1,0 +1,33 @@
+.cforms-popup-wrapper {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	z-index: 100;
+}
+.cforms-popup-wrapper:before,
+.cforms-popup-wrapper:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 100%;
+}
+.cforms-popup {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	max-width: 600px;
+	width: 95%;
+	height: auto;
+	background: #fff;
+}
